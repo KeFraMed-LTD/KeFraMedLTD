@@ -1,33 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KeFraMed LTD</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <!-- AOS Library -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- Bootstrap Icons -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KeFraMed LTD</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70">
+<body>
 
 <!-- Navbar -->
-<nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
   <div class="container">
-    <a class="navbar-brand fw-bold" href="#">KeFraMed</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <a class="navbar-brand" href="#home">
+      <img src="assets/eagle_logo.png" alt="KeFraMed" height="50"> KeFraMed
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
         <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
         <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
@@ -37,95 +32,88 @@
   </div>
 </nav>
 
-<!-- Home / Hero Section -->
-<section id="home" class="vh-100 d-flex align-items-center justify-content-center" 
-    style="background: linear-gradient(to bottom, #0077b6, #90e0ef);">
-  <div class="text-center text-dark" data-aos="fade-up">
-    <h1 class="display-4 fw-bold">KeFraMed LTD</h1>
-    <p class="lead">Reliable Medical Consumables & Supplies for Health and Safety</p>
-    <a href="#about" class="btn btn-primary btn-lg me-2">Learn More</a>
-    <a href="#contact" class="btn btn-outline-light btn-lg">Contact Us</a>
+<!-- Hero Section -->
+<section id="home" class="d-flex align-items-center justify-content-center" style="height:100vh; background: linear-gradient(135deg, #0077b6, #90e0ef); color:#333;">
+  <div class="text-center" data-aos="fade-up">
+    <h1>Reliable Medical Consumables & Supplies for Health and Safety</h1>
+    <a href="#about" class="btn btn-primary mt-3">Learn More</a>
   </div>
 </section>
 
-<!-- About Us Section -->
+<!-- About Section -->
 <section id="about" class="py-5 bg-white">
   <div class="container" data-aos="fade-up">
-    <h2 class="text-primary fw-bold mb-3">About Us</h2>
-    <hr class="mb-4" style="border-color:#90e0ef;">
-    <p class="lead">KeFraMed LTD is dedicated to improving healthcare delivery through the supply of high-quality medical and laboratory consumables.</p>
+    <h2 class="text-primary">About Us</h2>
+    <p>KeFraMed LTD is dedicated to improving healthcare delivery through the supply of high-quality medical and laboratory consumables.</p>
+    <p>Founded with a vision to enhance access to reliable healthcare resources, KeFraMed LTD partners with hospitals, clinics, and laboratories across Kenya to deliver dependable and affordable medical solutions.</p>
+    <p><strong>Vision:</strong> To be a leading supplier of medical and laboratory products across Kenya.</p>
+    <p><strong>Mission:</strong> To provide accessible, affordable, and reliable healthcare solutions.</p>
     <div class="row mt-4">
-      <div class="col-md-6">
-        <p>Founded with a vision to enhance access to reliable healthcare resources, KeFraMed LTD partners with hospitals, clinics, and laboratories across Kenya to deliver dependable and affordable medical solutions.</p>
-        <p><strong>Vision:</strong> To be a leading supplier of medical and laboratory products across Kenya.</p>
-        <p><strong>Mission:</strong> To provide accessible, affordable, and reliable healthcare solutions.</p>
+      <div class="col-md-3 text-center">
+        <h5>Integrity</h5>
+        <p>Upholding honesty and transparency.</p>
       </div>
-      <div class="col-md-6">
-        <div class="row text-center">
-          <div class="col-6 mb-3">
-            <i class="bi bi-check-circle-fill text-primary fs-2"></i>
-            <p class="fw-bold mt-2">Integrity</p>
-          </div>
-          <div class="col-6 mb-3">
-            <i class="bi bi-check-circle-fill text-primary fs-2"></i>
-            <p class="fw-bold mt-2">Reliability</p>
-          </div>
-          <div class="col-6 mb-3">
-            <i class="bi bi-check-circle-fill text-primary fs-2"></i>
-            <p class="fw-bold mt-2">Quality</p>
-          </div>
-          <div class="col-6 mb-3">
-            <i class="bi bi-check-circle-fill text-primary fs-2"></i>
-            <p class="fw-bold mt-2">Service Excellence</p>
-          </div>
-        </div>
+      <div class="col-md-3 text-center">
+        <h5>Reliability</h5>
+        <p>Consistent service you can depend on.</p>
+      </div>
+      <div class="col-md-3 text-center">
+        <h5>Quality</h5>
+        <p>Commitment to superior products and standards.</p>
+      </div>
+      <div class="col-md-3 text-center">
+        <h5>Service Excellence</h5>
+        <p>Customer satisfaction at every step.</p>
       </div>
     </div>
-    <a href="#products" class="btn btn-primary mt-3">Explore Our Products</a>
   </div>
 </section>
 
 <!-- Products Section -->
 <section id="products" class="py-5 bg-light">
   <div class="container" data-aos="fade-up">
-    <h2 class="text-primary fw-bold mb-3 text-center">Our Products</h2>
-    <p class="text-center mb-5">Supplying trusted medical and laboratory consumables to healthcare facilities across Kenya.</p>
+    <h2 class="text-primary">Our Products</h2>
+    <p>Supplying trusted medical and laboratory consumables to healthcare facilities across Kenya.</p>
     <div class="row g-4">
-      <!-- Product Card Example -->
+      <!-- Product Cards -->
       <div class="col-md-4">
-        <div class="card h-100 shadow-sm">
+        <div class="card h-100">
           <img src="assets/medical_consumables.jpg" class="card-img-top" alt="Medical Consumables">
           <div class="card-body">
-            <h5 class="card-title text-primary">Medical Consumables</h5>
-            <p class="card-text">Gloves, masks, syringes, PPE kits, bandages & dressings commonly used in hospitals.</p>
-            <a href="#contact" class="btn btn-primary">Request Quote</a>
+            <h5 class="card-title">Medical Consumables</h5>
+            <p class="card-text">Gloves, masks, syringes, PPE kits, bandages, and more.</p>
+            <button class="btn btn-success whatsapp-btn" data-product="Medical Consumables">
+              <i class="bi bi-whatsapp"></i> WhatsApp
+            </button>
           </div>
         </div>
       </div>
+
       <div class="col-md-4">
-        <div class="card h-100 shadow-sm">
+        <div class="card h-100">
           <img src="assets/laboratory_equipment.jpg" class="card-img-top" alt="Laboratory Equipment">
           <div class="card-body">
-            <h5 class="card-title text-primary">Laboratory Equipment</h5>
-            <p class="card-text">Microscopes, centrifuges, pipettes, test tubes, and blood collection kits.</p>
-            <a href="#contact" class="btn btn-primary">Request Quote</a>
+            <h5 class="card-title">Laboratory Equipment</h5>
+            <p class="card-text">Microscopes, pipettes, centrifuges, slides, and blood collection kits.</p>
+            <button class="btn btn-success whatsapp-btn" data-product="Laboratory Equipment">
+              <i class="bi bi-whatsapp"></i> WhatsApp
+            </button>
           </div>
         </div>
       </div>
+
       <div class="col-md-4">
-        <div class="card h-100 shadow-sm">
+        <div class="card h-100">
           <img src="assets/diagnostic_kits.jpg" class="card-img-top" alt="Diagnostic Kits">
           <div class="card-body">
-            <h5 class="card-title text-primary">Diagnostic Kits</h5>
-            <p class="card-text">Rapid diagnostic tests, ELISA kits, and reagents for malaria, HIV, COVID-19, and more.</p>
-            <a href="#contact" class="btn btn-primary">Request Quote</a>
+            <h5 class="card-title">Diagnostic Kits</h5>
+            <p class="card-text">Rapid diagnostic tests for malaria, HIV, COVID-19, ELISA kits, reagents.</p>
+            <button class="btn btn-success whatsapp-btn" data-product="Diagnostic Kits">
+              <i class="bi bi-whatsapp"></i> WhatsApp
+            </button>
           </div>
         </div>
       </div>
-      <!-- Add more product cards similarly -->
-    </div>
-    <div class="text-center mt-4">
-      <a href="#contact" class="btn btn-primary btn-lg">Request Full Catalog</a>
     </div>
   </div>
 </section>
@@ -133,26 +121,23 @@
 <!-- Services Section -->
 <section id="services" class="py-5 bg-white">
   <div class="container" data-aos="fade-up">
-    <h2 class="text-primary fw-bold mb-5 text-center">Our Services</h2>
-    <div class="row g-4">
+    <h2 class="text-primary">Our Services</h2>
+    <div class="row mt-4">
       <div class="col-md-4 text-center">
-        <i class="bi bi-box-seam text-primary fs-1 mb-3"></i>
-        <h5 class="fw-bold">Product Supply & Distribution</h5>
+        <i class="bi bi-box-seam fs-1 text-primary"></i>
+        <h5 class="mt-2">Product Supply & Distribution</h5>
         <p>Reliable sourcing and delivery of medical consumables and equipment nationwide.</p>
       </div>
       <div class="col-md-4 text-center">
-        <i class="bi bi-headset text-primary fs-1 mb-3"></i>
-        <h5 class="fw-bold">After-Sales Support</h5>
-        <p>Dedicated customer service to ensure proper use of products and timely resolution of issues.</p>
+        <i class="bi bi-headset fs-1 text-primary"></i>
+        <h5 class="mt-2">After-Sales Support</h5>
+        <p>Dedicated customer service to ensure proper product use and timely issue resolution.</p>
       </div>
       <div class="col-md-4 text-center">
-        <i class="bi bi-truck text-primary fs-1 mb-3"></i>
-        <h5 class="fw-bold">Procurement & Delivery Assistance</h5>
-        <p>Guidance in ordering, procurement planning, and safe, timely delivery of supplies.</p>
+        <i class="bi bi-truck fs-1 text-primary"></i>
+        <h5 class="mt-2">Procurement & Delivery Assistance</h5>
+        <p>Guidance in ordering, procurement planning, and safe, timely delivery of all healthcare supplies.</p>
       </div>
-    </div>
-    <div class="text-center mt-4">
-      <a href="#contact" class="btn btn-primary btn-lg">Learn More About Our Services</a>
     </div>
   </div>
 </section>
@@ -160,79 +145,67 @@
 <!-- Contact Section -->
 <section id="contact" class="py-5 bg-light">
   <div class="container" data-aos="fade-up">
-    <h2 class="text-primary fw-bold mb-3 text-center">Contact Us</h2>
-    <p class="text-center mb-5">We’d love to hear from you. Reach out for inquiries or quotes.</p>
-    <div class="row g-4">
-      <div class="col-md-5">
-        <h5>Email</h5>
-        <p>keframed@gmail.com</p>
-        <h5>Phone</h5>
+    <h2 class="text-primary">Contact Us</h2>
+    <p>We’d love to hear from you. Reach out for inquiries or quotes.</p>
+    <div class="row">
+      <div class="col-md-6 mb-3">
+        <h5>Email:</h5>
+        <p>keframedlimited@gmail.com</p>
+        <h5>Phone:</h5>
         <p>+254 701718080</p>
-        <h5>Address</h5>
+        <h5>Address:</h5>
         <p>Nairobi, Kenya</p>
       </div>
-      <div class="col-md-7">
-        <form>
+      <div class="col-md-6">
+        <form id="contactForm" action="https://formspree.io/f/xgvrwboy" method="POST">
           <div class="mb-3">
-            <label for="name" class="form-label">Name</label>
-            <input type="text" class="form-control" id="name" placeholder="Your Name">
+            <input type="text" name="name" class="form-control" placeholder="Your Name" required>
           </div>
           <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email" placeholder="you@example.com">
+            <input type="email" name="email" class="form-control" placeholder="Your Email" required>
           </div>
           <div class="mb-3">
-            <label for="message" class="form-label">Message</label>
-            <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+            <textarea name="message" class="form-control" rows="4" placeholder="Your Message" required></textarea>
           </div>
           <button type="submit" class="btn btn-primary">Send Message</button>
+          <div id="formAlert" class="alert alert-success mt-3 d-none">
+            Thank you! Your message has been sent.
+          </div>
         </form>
       </div>
     </div>
   </div>
 </section>
 
-<!-- Footer Section -->
-<footer class="bg-primary text-white pt-4">
-  <div class="container">
-    <div class="row text-center text-md-start">
-      <div class="col-md-4 mb-3">
-        <p>© 2025 KeFraMed LTD. All Rights Reserved.</p>
-      </div>
-      <div class="col-md-4 mb-3">
-        <a href="#home" class="text-white me-3 text-decoration-none">Home</a>
-        <a href="#about" class="text-white me-3 text-decoration-none">About</a>
-        <a href="#products" class="text-white me-3 text-decoration-none">Products</a>
-        <a href="#services" class="text-white me-3 text-decoration-none">Services</a>
-        <a href="#contact" class="text-white text-decoration-none">Contact</a>
-      </div>
-      <div class="col-md-4 mb-3">
-        <a href="#" class="text-white me-3 fs-5"><i class="bi bi-linkedin"></i></a>
-        <a href="#" class="text-white me-3 fs-5"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="text-white fs-5"><i class="bi bi-x"></i></a>
-      </div>
+<!-- Footer -->
+<footer class="py-4 bg-primary text-white">
+  <div class="container d-flex justify-content-between flex-wrap">
+    <div>© 2025 KeFraMed LTD. All Rights Reserved.</div>
+    <div>
+      <a href="#home" class="text-white me-3">Home</a>
+      <a href="#about" class="text-white me-3">About</a>
+      <a href="#products" class="text-white me-3">Products</a>
+      <a href="#services" class="text-white me-3">Services</a>
+      <a href="#contact" class="text-white">Contact</a>
+    </div>
+    <div>
+      <a href="#" class="text-white me-2"><i class="bi bi-linkedin"></i></a>
+      <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="text-white"><i class="bi bi-x"></i></a>
     </div>
   </div>
 </footer>
 
-<!-- Bootstrap JS & dependencies -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<!-- AOS Animation JS -->
+<!-- WhatsApp Floating Button -->
+<a href="#" id="whatsapp-float" class="whatsapp-float">
+   <i class="bi bi-whatsapp"></i>
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<!-- Custom JS -->
 <script src="script.js"></script>
 <script>
-  AOS.init({ duration: 800, once: true });
-
-  // Smooth scroll
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-          e.preventDefault();
-          document.querySelector(this.getAttribute('href')).scrollIntoView({
-              behavior: 'smooth'
-          });
-      });
-  });
+  AOS.init();
 </script>
 </body>
 </html>
