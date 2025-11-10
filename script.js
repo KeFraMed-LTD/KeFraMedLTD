@@ -1,5 +1,3 @@
-// AOS initialized in HTML
-
 // Dynamic WhatsApp messages for product buttons
 document.querySelectorAll('.whatsapp-btn').forEach(button => {
   button.addEventListener('click', () => {
