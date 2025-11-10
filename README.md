@@ -11,4 +11,4 @@ This is the official website for KeFraMed LTD, a trusted supplier of medical con
 
 The site is deployed on GitHub Pages:
 
-https://keframedltd.github.io//KeFraMedLTD/
+https://keframedltd.github.io//KeFraMedLTD/?
